@@ -1,4 +1,33 @@
-.idea
-/target
+# IDEA
+.idea/
+*.iws
 *.iml
-/lib
+*.ipr
+out/
+
+# Target
+target/
+build/
+*.war
+*.jar
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+
+# Temp
+*.tmp
+*.temp
